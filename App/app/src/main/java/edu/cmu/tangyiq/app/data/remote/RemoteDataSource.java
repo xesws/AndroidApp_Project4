@@ -21,7 +21,7 @@ import edu.cmu.tangyiq.app.data.dto.ApiResponse;
 import edu.cmu.tangyiq.app.data.dto.SearchResultDto;
 import edu.cmu.tangyiq.app.domain.model.SearchResult;
 public class RemoteDataSource {
-    private static final String BASE_URL = "https://symmetrical-barnacle-4vjrwjwvgj3qggv-8080.app.github.dev/";
+    private static final String BASE_URL = "https://fuzzy-potato-7rg7479pgv42wxwg-8080.app.github.dev/";
     private final Gson gson = new Gson();
 
     public interface DataSourceCallback {
