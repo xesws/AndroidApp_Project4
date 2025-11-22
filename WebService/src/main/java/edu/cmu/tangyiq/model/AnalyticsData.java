@@ -1,3 +1,9 @@
+/**
+ * AnalyticsData - Model for dashboard analytics data.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.model;
 
 import java.util.List;

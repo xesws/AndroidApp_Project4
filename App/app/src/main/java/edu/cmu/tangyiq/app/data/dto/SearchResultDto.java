@@ -1,3 +1,9 @@
+/**
+ * SearchResultDto - DTO for search result from API.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.app.data.dto;
 
 public class SearchResultDto {

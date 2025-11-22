@@ -1,3 +1,9 @@
+/**
+ * AnalyticsService - Service for retrieving analytics data.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.service;
 
 import edu.cmu.tangyiq.model.AnalyticsData;

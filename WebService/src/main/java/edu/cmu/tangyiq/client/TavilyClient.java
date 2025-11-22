@@ -1,3 +1,10 @@
+/**
+ * TavilyClient - Handles communication with Tavily Search API.
+ * Makes POST requests to Tavily and parses search results.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.client;
 
 import com.google.gson.JsonArray;
@@ -14,11 +21,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-/**
- * TavilyClient - Handles communication with Tavily Search API.
- * Makes POST requests to Tavily and parses search results.
- */
 public class TavilyClient {
     private static final String TAVILY_API_URL = "https://api.tavily.com/search";
     private static final String API_KEY = "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";

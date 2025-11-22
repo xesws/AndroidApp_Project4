@@ -1,3 +1,9 @@
+/**
+ * DashboardServlet - HTTP endpoint for operations dashboard.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.servlet;
 
 import javax.servlet.ServletException;

@@ -1,3 +1,9 @@
+/**
+ * WebServiceTest - Integration tests for web service components.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.testing;
 
 import edu.cmu.tangyiq.client.TavilyClient;

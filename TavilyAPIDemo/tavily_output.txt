@@ -1,0 +1,44 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/opt/homebrew/Cellar/maven/3.9.11/libexec/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< edu.cmu:TavilyAPIDemo >------------------------
+[INFO] Building TavilyAPIDemo 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec:3.1.0:java (default-cli) @ TavilyAPIDemo ---
+=== Tavily API Demo ===
+Searching for: Carnegie Mellon University
+
+Search Results:
+---------------
+1. Carnegie Mellon University | CMU
+   URL: https://www.cmu.edu/
+   Snippet: A private, global research university, Carnegie Mellon stands among the world's top educational institutions with its cutting-edge programs and innova...
+
+2. Carnegie Mellon University
+   URL: https://www.facebook.com/carnegiemellonu/
+   Snippet: A private, global research university. One of the world's most renowned educational institutions.
+
+3. Carnegie Mellon University (@carnegiemellon)
+   URL: https://www.instagram.com/carnegiemellon/?hl=en
+   Snippet: 111K followers · 2.5K+ posts · Our color is a tartan, we race buggies & have a poker-playing robot. We've got our own way of doing things. #LifeAtCMU.
+
+4. Carnegie Mellon University - Profile, Rankings and Data
+   URL: https://www.usnews.com/best-colleges/carnegie-mellon-university-3242
+   Snippet: My Schools The student-faculty ratio at Carnegie Mellon University is 6:1, and it utilizes a semester-based academic calendar. The student-faculty rat...
+
+5. Carnegie Mellon University
+   URL: https://en.wikipedia.org/wiki/Carnegie_Mellon_University
+   Snippet: Jump to content ## Contents * 1 History * Bahasa Indonesia * Bahasa Melayu * Norsk bokmål * Norsk nynorsk * Download QR code * Download as PDF ## Hist...
+
+=== Demo Complete ===
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.506 s
+[INFO] Finished at: 2025-11-22T17:59:35-05:00
+[INFO] ------------------------------------------------------------------------

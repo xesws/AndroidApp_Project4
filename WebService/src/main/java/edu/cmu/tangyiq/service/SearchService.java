@@ -1,3 +1,9 @@
+/**
+ * SearchService - Business logic for search operations.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.service;
 
 import java.util.List;

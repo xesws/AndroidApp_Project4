@@ -1,3 +1,9 @@
+/**
+ * SearchRepository - Repository interface for search operations.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.app.domain.repository;
 
 import java.util.List;

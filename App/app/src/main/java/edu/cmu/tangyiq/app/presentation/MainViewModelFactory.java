@@ -1,3 +1,9 @@
+/**
+ * MainViewModelFactory - Factory for creating MainViewModel with dependencies.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.app.presentation;
 
 import androidx.annotation.NonNull;

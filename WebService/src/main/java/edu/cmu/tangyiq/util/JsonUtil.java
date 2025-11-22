@@ -1,3 +1,9 @@
+/**
+ * JsonUtil - Utility class for JSON serialization.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.util;
 
 import com.google.gson.Gson;

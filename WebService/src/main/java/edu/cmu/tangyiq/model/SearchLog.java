@@ -1,3 +1,9 @@
+/**
+ * SearchLog - Model for search request log entry.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.model;
 
 import java.util.Date;

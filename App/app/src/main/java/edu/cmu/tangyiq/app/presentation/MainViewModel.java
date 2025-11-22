@@ -1,3 +1,10 @@
+/**
+ * MainViewModel - ViewModel for MainActivity.
+ * Manages UI state and orchestrates search operations through the use case.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.app.presentation;
 
 import androidx.lifecycle.LiveData;
@@ -9,11 +16,6 @@ import java.util.List;
 import edu.cmu.tangyiq.app.domain.model.SearchResult;
 import edu.cmu.tangyiq.app.domain.repository.RepositoryCallback;
 import edu.cmu.tangyiq.app.domain.usecase.SearchUseCase;
-
-/**
- * MainViewModel - ViewModel for MainActivity.
- * Manages UI state and orchestrates search operations through the use case.
- */
 public class MainViewModel extends ViewModel {
     private final SearchUseCase searchUseCase;
     private final MutableLiveData<SearchState> searchState = new MutableLiveData<>(SearchState.idle());

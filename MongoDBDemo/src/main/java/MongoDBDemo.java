@@ -21,7 +21,7 @@ public class MongoDBDemo {
 
     // MongoDB Atlas connection string
     private static final String CONNECTION_STRING =
-        "mongodb+srv://qty20010619_db_user:fMvkEUTZPMMH5Ke8@cluster0.xrafh1j.mongodb.net/?retryWrites=true&w=majority";
+        "mongodb+srv://qty20010619_db_user:IbH2o4xnTD6qAF4K@cluster0.xrafh1j.mongodb.net/?retryWrites=true&w=majority";
 
     private static final String DATABASE_NAME = "task1_demo";
     private static final String COLLECTION_NAME = "user_strings";

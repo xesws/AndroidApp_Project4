@@ -1,3 +1,9 @@
+/**
+ * SearchResult - Domain model for search result.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.app.domain.model;
 
 public class SearchResult {

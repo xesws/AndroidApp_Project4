@@ -1,3 +1,9 @@
+/**
+ * ApiResponse - DTO for API response wrapper.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.app.data.dto;
 
 import java.util.List;

@@ -1,3 +1,10 @@
+/**
+ * LogRepository - Data access layer for MongoDB operations.
+ * Handles saving logs and retrieving analytics data.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.repository;
 
 import com.mongodb.client.MongoClient;
@@ -12,11 +19,6 @@ import org.bson.Document;
 import java.util.*;
 
 import edu.cmu.tangyiq.model.SearchLog;
-
-/**
- * LogRepository - Data access layer for MongoDB operations.
- * Handles saving logs and retrieving analytics data.
- */
 public class LogRepository {
     private static final String CONNECTION_STRING = "mongodb+srv://qty20010619_db_user:IbH2o4xnTD6qAF4K@cluster0.xrafh1j.mongodb.net/?appName=Cluster0";
     private static final String DATABASE_NAME = "tavily_search";

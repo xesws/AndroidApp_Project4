@@ -1,3 +1,9 @@
+/**
+ * SearchRepositoryImpl - Implementation of SearchRepository.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.app.data.repository;
 
 import java.util.List;

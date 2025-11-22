@@ -1,3 +1,10 @@
+/**
+ * SearchServlet - HTTP endpoint for search requests from Android app.
+ * Handles GET /search?query=xxx
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.servlet;
 
 import javax.servlet.ServletException;
@@ -12,11 +19,6 @@ import java.util.Map;
 
 import edu.cmu.tangyiq.service.SearchService;
 import edu.cmu.tangyiq.util.JsonUtil;
-
-/**
- * SearchServlet - HTTP endpoint for search requests from Android app.
- * Handles GET /search?query=xxx
- */
 @WebServlet("/search")
 public class SearchServlet extends HttpServlet {
     private SearchService searchService;

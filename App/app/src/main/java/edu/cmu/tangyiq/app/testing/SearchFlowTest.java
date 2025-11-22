@@ -1,3 +1,9 @@
+/**
+ * SearchFlowTest - Unit tests for search flow.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.app.testing;
 
 import java.util.ArrayList;

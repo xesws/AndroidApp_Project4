@@ -1,0 +1,15 @@
+=== MongoDB Atlas Demo ===
+
+Connected to MongoDB Atlas successfully!
+
+Enter a string to store in the database: Hello MongoDB Task 1!
+String written to database successfully!
+
+All strings stored in the database:
+-----------------------------------
+1. Hello from Task 1 Demo
+2. Hello MongoDB Task 1!
+
+Total documents: 2
+
+=== Demo Complete ===

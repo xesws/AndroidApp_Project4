@@ -1,13 +1,15 @@
+/**
+ * SearchState - UI state wrapper for search operations.
+ * Represents the different states: IDLE, LOADING, SUCCESS, ERROR.
+ *
+ * Author: Tangyi Qian
+ * Andrew ID: tangyiq
+ */
 package edu.cmu.tangyiq.app.presentation;
 
 import java.util.List;
 
 import edu.cmu.tangyiq.app.domain.model.SearchResult;
-
-/**
- * SearchState - UI state wrapper for search operations.
- * Represents the different states: IDLE, LOADING, SUCCESS, ERROR.
- */
 public class SearchState {
     public enum Status { IDLE, LOADING, SUCCESS, ERROR }
 
