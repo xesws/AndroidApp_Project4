@@ -12,7 +12,7 @@
         android:id="@+id/titleText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tavily Search"
+        android:text="Deep Research (Tavily)"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textAlignment="center"
