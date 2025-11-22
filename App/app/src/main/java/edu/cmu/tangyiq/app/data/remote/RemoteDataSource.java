@@ -19,8 +19,7 @@ import edu.cmu.tangyiq.app.domain.model.SearchResult;
  * Converts DTOs to domain models.
  */
 public class RemoteDataSource {
-    // TODO: Replace with your GitHub Codespaces URL (e.g., "https://xxx-8080.app.github.dev/")
-    private static final String BASE_URL = "https://YOUR_CODESPACE_URL-8080.app.github.dev/";
+    private static final String BASE_URL = "https://stunning-spoon-54wvpvqrqvgc7wr9-8080.app.github.dev/";
     private final Gson gson = new Gson();
 
     public interface DataSourceCallback {
