@@ -1,0 +1,10 @@
+/Users/tq/AndroidStudioProjects/AndroidApp_Project4/WebService/src/main/java/edu/cmu/tangyiq/client/TavilyClient.java
+/Users/tq/AndroidStudioProjects/AndroidApp_Project4/WebService/src/main/java/edu/cmu/tangyiq/model/AnalyticsData.java
+/Users/tq/AndroidStudioProjects/AndroidApp_Project4/WebService/src/main/java/edu/cmu/tangyiq/model/SearchLog.java
+/Users/tq/AndroidStudioProjects/AndroidApp_Project4/WebService/src/main/java/edu/cmu/tangyiq/repository/LogRepository.java
+/Users/tq/AndroidStudioProjects/AndroidApp_Project4/WebService/src/main/java/edu/cmu/tangyiq/service/AnalyticsService.java
+/Users/tq/AndroidStudioProjects/AndroidApp_Project4/WebService/src/main/java/edu/cmu/tangyiq/service/SearchService.java
+/Users/tq/AndroidStudioProjects/AndroidApp_Project4/WebService/src/main/java/edu/cmu/tangyiq/servlet/DashboardServlet.java
+/Users/tq/AndroidStudioProjects/AndroidApp_Project4/WebService/src/main/java/edu/cmu/tangyiq/servlet/SearchServlet.java
+/Users/tq/AndroidStudioProjects/AndroidApp_Project4/WebService/src/main/java/edu/cmu/tangyiq/testing/WebServiceTest.java
+/Users/tq/AndroidStudioProjects/AndroidApp_Project4/WebService/src/main/java/edu/cmu/tangyiq/util/JsonUtil.java

@@ -1,0 +1,12 @@
+edu/cmu/tangyiq/client/TavilyClient$SearchResponse.class
+edu/cmu/tangyiq/servlet/DashboardServlet.class
+edu/cmu/tangyiq/servlet/SearchServlet.class
+edu/cmu/tangyiq/service/SearchService$SearchResult.class
+edu/cmu/tangyiq/util/JsonUtil.class
+edu/cmu/tangyiq/model/SearchLog.class
+edu/cmu/tangyiq/service/SearchService.class
+edu/cmu/tangyiq/testing/WebServiceTest.class
+edu/cmu/tangyiq/client/TavilyClient.class
+edu/cmu/tangyiq/service/AnalyticsService.class
+edu/cmu/tangyiq/repository/LogRepository.class
+edu/cmu/tangyiq/model/AnalyticsData.class
