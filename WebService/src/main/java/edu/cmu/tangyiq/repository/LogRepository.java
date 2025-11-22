@@ -74,6 +74,22 @@ public class LogRepository {
         return topQueries;
     }
 
+    public List<SearchLog> getAllLogs() {
+        List<SearchLog> logs = new ArrayList<>();
+        for (Document doc : collection.find().sort(Sorts.descending("timestamp"))) {
+            SearchLog log = new SearchLog();
+            log.setTimestamp(doc.getDate("timestamp"));
+            log.setQuery(doc.getString("query"));
+            log.setDeviceModel(doc.getString("deviceModel"));
+            log.setTavilyLatency(doc.getLong("tavilyLatency"));
+            log.setResultCount(doc.getInteger("resultCount"));
+            log.setStatus(doc.getString("status"));
+            log.setClientIP(doc.getString("clientIP"));
+            logs.add(log);
+        }
+        return logs;
+    }
+
     public void close() {
         if (mongoClient != null) {
             mongoClient.close();

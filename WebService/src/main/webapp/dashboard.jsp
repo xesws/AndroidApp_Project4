@@ -1,7 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="edu.cmu.tangyiq.model.AnalyticsData" %>
+<%@ page import="edu.cmu.tangyiq.model.SearchLog" %>
 <%@ page import="java.util.Map" %>
+<%@ page import="java.text.SimpleDateFormat" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -106,6 +108,35 @@
                     <td><%= rank++ %></td>
                     <td><%= entry.getKey() %></td>
                     <td><%= entry.getValue() %></td>
+                </tr>
+                <%  }
+                } %>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Full Request Logs</h2>
+            <table>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Query</th>
+                    <th>Device</th>
+                    <th>Latency (ms)</th>
+                    <th>Results</th>
+                    <th>Status</th>
+                    <th>Client IP</th>
+                </tr>
+                <% if (analytics != null && analytics.getLogs() != null) {
+                    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                    for (SearchLog log : analytics.getLogs()) { %>
+                <tr>
+                    <td><%= log.getTimestamp() != null ? sdf.format(log.getTimestamp()) : "N/A" %></td>
+                    <td><%= log.getQuery() %></td>
+                    <td><%= log.getDeviceModel() %></td>
+                    <td><%= log.getTavilyLatency() %></td>
+                    <td><%= log.getResultCount() %></td>
+                    <td><%= log.getStatus() %></td>
+                    <td><%= log.getClientIP() %></td>
                 </tr>
                 <%  }
                 } %>

@@ -15,6 +15,7 @@ public class AnalyticsService {
         data.setTotalSearches(logRepository.getTotalSearches());
         data.setAverageLatency(logRepository.getAverageLatency());
         data.setTopQueries(logRepository.getTopQueries(10));
+        data.setLogs(logRepository.getAllLogs());
         return data;
     }
 }

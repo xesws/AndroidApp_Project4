@@ -1,5 +1,8 @@
 # API Credentials
 
+## GitHub Codespaces
+- **Web Service URL:** `https://bug-free-engine-pgx7q7rpvpqc7pgg-8080.app.github.dev/`
+
 ## Tavily API
 - **API Key:** `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`
 
