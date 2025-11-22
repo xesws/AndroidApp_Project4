@@ -19,7 +19,7 @@ import edu.cmu.tangyiq.app.domain.model.SearchResult;
  * Converts DTOs to domain models.
  */
 public class RemoteDataSource {
-    private static final String BASE_URL = "https://stunning-spoon-54wvpvqrqvgc7wr9-8080.app.github.dev/";
+    private static final String BASE_URL = "https://vigilant-waffle-7rg7479pg7pcrrx4-8080.app.github.dev/";
     private final Gson gson = new Gson();
 
     public interface DataSourceCallback {
